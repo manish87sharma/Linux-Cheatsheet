@@ -74,7 +74,7 @@ The above commands are useful for starting or stopping commands during the curre
 # Reverse order and last 50 logs
 > journalctl -u application.service -r -n 50
 # Output formats -jsonwill,verbose,cat,short-monotonic,json-pretty
-> journalctl -o json-pretty
+> journalctl _PID=number -o json-pretty
 
 ```
 
